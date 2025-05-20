@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sealed Static Extension", "Sealed Static Extension\Sealed Static Extension.csproj", "{B1885B94-10E1-44E8-BC7F-D2B4110006B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1885B94-10E1-44E8-BC7F-D2B4110006B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1885B94-10E1-44E8-BC7F-D2B4110006B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1885B94-10E1-44E8-BC7F-D2B4110006B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1885B94-10E1-44E8-BC7F-D2B4110006B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C40AC73-C02C-41BD-8B3C-EC390982ABF0}
+	EndGlobalSection
+EndGlobal
