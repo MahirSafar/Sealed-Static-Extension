@@ -1,9 +1,8 @@
-﻿using System.Text.RegularExpressions;
-using Sealed_Static_Extension.Helper;
+﻿using Sealed_Static_Extension.Helper;
 
 namespace Sealed_Static_Extension.Models
 {
-    class Student
+    abstract class Student
     {
         private string _fullname;
         public string Fullname 
@@ -36,6 +35,8 @@ namespace Sealed_Static_Extension.Models
             _groupNo = groupNo;
             Age = age;
         }
+
+        public abstract void DoHomeWork();
     }
 
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sealed Static Extension")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbb4f58ddd1f575ef3387a299d40b67062ea4856")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sealed Static Extension")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sealed Static Extension")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

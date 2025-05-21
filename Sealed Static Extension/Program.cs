@@ -7,17 +7,6 @@ namespace Sealed_Static_Extension
     {
         static void Main(string[] args)
         {
-            Student student1 = new Student("John Doe", "A123", 20);
-            Console.WriteLine($"Student1: Fullname={student1.Fullname}, GroupNo={student1.GroupNo}, Age={student1.Age}");
-
-            Student student2 = new Student("john doe", "B234", 22);
-            Console.WriteLine($"Student2: Fullname={student2.Fullname}, GroupNo={student2.GroupNo}, Age={student2.Age}");
-
-            Student student3 = new Student("Jane Smith", "123A", 21);
-            Console.WriteLine($"Student3: Fullname={student3.Fullname}, GroupNo={student3.GroupNo}, Age={student3.Age}");
-
-            Console.WriteLine();
-
             string testString = "Hello123";
             Console.WriteLine($"\"{testString}\" contains digit? {testString.IsContainDigit()}");
 
@@ -44,6 +33,18 @@ namespace Sealed_Static_Extension
             string text = "Hello hello HELLO world";
             string wordToCount = "hello";
             Console.WriteLine($"'{wordToCount}' repeated {text.ReplayedWordsCount(wordToCount)} times in \"{text}\"");
+
+            ProgrammingStudent programmingStudent1 = new("John Doe", "A123", 20);
+            Console.WriteLine($"Student1: Fullname={programmingStudent1.Fullname}, GroupNo={programmingStudent1.GroupNo}, Age={programmingStudent1.Age}");
+
+            DesignStudent designStudent1 = new("john doe", "B234", 22);
+            Console.WriteLine($"Student2: Fullname={designStudent1.Fullname}, GroupNo={designStudent1.GroupNo}, Age={designStudent1.Age}");
+
+            DesignStudent designStudent2 = new("Jane Smith", "123A", 21);
+            Console.WriteLine($"Student3: Fullname={designStudent2.Fullname}, GroupNo={designStudent2.GroupNo}, Age={designStudent2.Age}");
+
+            programmingStudent1.DoHomeWork();
+            designStudent1.DoHomeWork();
         }
     }
 }

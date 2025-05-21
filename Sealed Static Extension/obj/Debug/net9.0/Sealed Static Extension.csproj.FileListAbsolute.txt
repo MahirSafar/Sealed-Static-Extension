@@ -12,3 +12,4 @@ C:\Users\mahir\Desktop\Sealed Static Extension\Sealed Static Extension\obj\Debug
 C:\Users\mahir\Desktop\Sealed Static Extension\Sealed Static Extension\obj\Debug\net9.0\Sealed Static Extension.pdb
 C:\Users\mahir\Desktop\Sealed Static Extension\Sealed Static Extension\obj\Debug\net9.0\Sealed Static Extension.genruntimeconfig.cache
 C:\Users\mahir\Desktop\Sealed Static Extension\Sealed Static Extension\obj\Debug\net9.0\ref\Sealed Static Extension.dll
+C:\Users\mahir\Desktop\Sealed Static Extension\Sealed Static Extension\obj\Debug\net9.0\Sealed Static Extension.sourcelink.json
